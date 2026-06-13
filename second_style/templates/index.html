@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio</title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+
+<body>
+
+
+<!--================================
+        BACKGROUND LIGHTS
+=================================-->
+
+<div class="bg-purple"></div>
+<div class="bg-blue"></div>
+
+
+<!--================================
+            NAVBAR
+=================================-->
+
+  {% block head %}
+   {% include "navBar.html" %}
+  {% endblock %}
+
+
+
+<!--================================
+             HERO
+=================================-->
+
+    {% block home %}
+     {% include "hero.html" %}
+    {% endblock %}
+
+
+<!--================================
+          FUTURE PROFILE CARD
+=================================-->
+
+
+    {% block profile_card %}
+     {% include "profileCard.html" %}
+    {% endblock %}
+
+<!--================================
+            ABOUT SECTION
+=================================-->
+
+    {% block about %}
+     {% include "about.html" %}
+    {% endblock %}
+
+<!--================================
+       CAREER / GIT TIMELINE
+       my_carrier_section
+=================================-->
+
+    {% block career %}
+     {% include "timeLine.html" %}
+    {% endblock %}
+
+<!--================================
+            PROJECTS
+=================================-->
+    {% block projects %}
+     {% include "projects.html" %}
+    {% endblock %}
+
+
+<!--================================
+            CONTACT
+=================================-->
+
+    {% block contact %}
+     {% include "contact.html" %}
+    {% endblock %}
+
+<!--================================
+             FOOTER
+=================================-->
+
+    {% block footer %}
+     {% include "footer.html" %}
+    {% endblock %}
+
+
+</body>
+
+</html>
