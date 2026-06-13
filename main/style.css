@@ -1017,7 +1017,7 @@ body {
 
     position: absolute;
 
-    left: -52px;
+    left: 29.5px;
 
     top: 35px;
 
@@ -1028,6 +1028,8 @@ body {
     border-radius: 50%;
 
     background: #7b2cff;
+
+    transform: translateX(-50%);
 
     box-shadow:
         0 0 10px #7b2cff,
