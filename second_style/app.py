@@ -1,12 +1,14 @@
 # basic flask app
 from flask import Flask, render_template
+from static.scripts.dataDict import projects as projects
 
 
 app = Flask(__name__)
+
 reload = True
 @app.route('/')
 def home():
-    return render_template('index.html')
+    return render_template('index.html', projects=projects)
 
 
 if __name__ == '__main__':
