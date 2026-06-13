@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>404 Not Found</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="bg-purple"></div>
+<div class="bg-blue"></div>
+
+
+
+<section class="contact error-contact">
+
+    <div class="contact-terminal glass">
+
+        <div class="terminal-top">
+
+            <span class="circle red"></span>
+            <span class="circle yellow"></span>
+            <span class="circle green"></span>
+
+            <span class="terminal-title">
+                error.sh
+            </span>
+
+        </div>
+
+        <div class="terminal-command">
+            $ unknown command
+        </div>
+
+        <div class="contact-info">
+
+            <p>
+                > Status: 404 Not Found
+            </p>
+
+            <p>
+                > The page you are looking for does not exist.
+            </p>
+
+            <p>
+                > Go back to <a href="{{ url_for('home') }}">home</a>.
+            </p>
+
+            <p class="status-online">
+                ● Page not found...
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+
+</html>
