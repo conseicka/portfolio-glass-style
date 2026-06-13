@@ -1019,6 +1019,42 @@ section {
 }
 
 
+.cursor {
+
+    display: inline-block;
+
+    width: 8px;
+
+    height: 18px;
+
+    margin-left: 6px;
+
+    background: var(--green);
+
+    animation: blink 1s steps(2, start) infinite;
+
+    vertical-align: middle;
+
+}
+
+
+@keyframes blink {
+
+    0%, 50% {
+
+        opacity: 1;
+
+    }
+
+    51%, 100% {
+
+        opacity: 0;
+
+    }
+
+}
+
+
 /*================================
           GIT TIMELINE
 =================================*/
@@ -1508,3 +1544,4 @@ footer {
 
     margin-top: 15px;
 }
+
