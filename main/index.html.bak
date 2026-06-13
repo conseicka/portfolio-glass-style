@@ -60,11 +60,17 @@
             Projects
         </a>
 
-   
+        <a href="#contact">
+            Contact
+        </a>
+
 
     </nav>
 
 
+    <a href="#contact" class="nav-button">
+        Let's Talk
+    </a>
 
 
 </header>
@@ -174,7 +180,7 @@
 
 
         <h2>
-            Erick Saavedra
+            ERICK
         </h2>
 
 
@@ -227,7 +233,6 @@
 
 
 </section>
-
 
 
 
@@ -342,7 +347,6 @@
 
 
 </section>
-
 
 
 
@@ -462,12 +466,12 @@
                     <div>
 
                         <strong>
-                            Erick Saavedra
+                            Erick
                         </strong>
 
 
                         <span>
-                            1-26 to Present
+                            Present
                         </span>
 
 
@@ -476,11 +480,9 @@
 
                 </div>
 
-
                 <span class="commit-id">
                     4b2fa8c
                 </span>
-
 
             </div>
 
@@ -557,11 +559,9 @@
 
                 </div>
 
-
                 <span class="commit-id">
                     9a5bc2f
                 </span>
-
 
             </div>
 
@@ -643,14 +643,13 @@
 
                 </div>
 
-
                 <span class="commit-id">
                     f8e4d91
                 </span>
 
-
             </div>
 
+            
 
             <div class="commit-content">
 
@@ -729,14 +728,13 @@
 
                 </div>
 
-
                 <span class="commit-id">
                     a0c92de
                 </span>
 
-
             </div>
 
+            
 
             <div class="commit-content">
 
@@ -755,8 +753,7 @@
 
                 <p>
                     Learned software engineering,
-                    programming fundamentals,
-                    algorithms and system design.
+                    programming fundamentals and system design.
                 </p>
 
 
