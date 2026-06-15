@@ -92,7 +92,7 @@
             </p>
 
             <p style="margin-top: 30px;">
-                <a href="/#projects" class="secondary-btn" style="display: inline-block; text-decoration: none;">
+                <a href="/#projects" class="secondary-btn">
                     <i class="fa-solid fa-arrow-left"></i> Back to Projects
                 </a>
             </p>
@@ -104,6 +104,57 @@
 
             </p>
 
+
+        </div>
+
+    </div>
+
+    <div class="git-terminal glass" style="margin-top: 30px;">
+
+        <div class="terminal-top">
+            <span class="circle red"></span>
+            <span class="circle yellow"></span>
+            <span class="circle green"></span>
+            <span class="terminal-title">
+                assets.sh
+            </span>
+        </div>
+
+        <div class="terminal-command">
+            $ ls -la assets/
+        </div>
+
+        <div class="contact-info">
+            {% for asset in project.assets %}
+            <p>
+                > {{ asset.name }}
+                <span style="color: var(--text-light); margin-left: 10px;">
+                    [{{ asset.type }}]
+                </span>
+                <span style="color: var(--text-light); margin-left: 10px;">
+                    {{ asset.description }}
+                </span>
+            </p>
+            {% if asset.type == 'image' %}
+            <div style="margin: 15px 0;">
+                <img src="{{ url_for('static', filename=asset.path) }}" alt="{{ asset.description }}" style="max-width: 100%; border-radius: 10px; border: 1px solid var(--border);">
+            </div>
+            {% elif asset.type == 'video' %}
+            <div style="margin: 15px 0;">
+                <video controls style="max-width: 100%; border-radius: 10px; border: 1px solid var(--border);">
+                    <source src="{{ url_for('static', filename=asset.path) }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            {% endif %}
+            {% endfor %}
+
+
+            <p class="status-online">
+
+                ● whaiting for your command...
+
+            </p>
 
         </div>
 
