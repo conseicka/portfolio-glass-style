@@ -22,7 +22,7 @@
 
 
     {%- for p in projects%}
-    <div class="project-card glass">
+    <a href="/project/{{ p.id }}" class="project-card glass" style="text-decoration: none; color: inherit;">
         <div class="project-header">
             <span class="project-icon">{{ p.icon }}</span>
             <h3>{{ p.title }}</h3>
@@ -35,7 +35,7 @@
             <span>{{ tech }}</span>
             {%- endfor %}
         </div>
-    </div>
+    </a>
     {%- endfor %}
 
 

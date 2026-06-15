@@ -5,18 +5,21 @@
 
 projects = [
     {
+        "id": "portfolio-v3",
         "icon": "📁",
         "title": "My Portfolio v3",
         "description": "Futuristic developer portfolio with glassmorphism effects, neon lights, interactive visual components and pure HTML & CSS architecture.",
         "stack": ["HTML", "CSS", "UI Design"],
     },
     {
+        "id": "management-system",
         "icon": "⚙️",
         "title": "Management System",
         "description": "Business management solution focused on database design, backend logic, and scalable architecture.",
         "stack": ["Java", "SQL", "Backend"],
     },
     {
+        "id": "experimental-lab",
         "icon": "🧪",
         "title": "Experimental Lab",
         "description": "Personal space for testing new ideas, technologies, visual concepts and software experiments.",
