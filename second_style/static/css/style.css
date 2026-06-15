@@ -1110,7 +1110,7 @@ section {
 
     left: 28px;
 
-    top: 0;
+    top: 35px;
 
     bottom: 0;
 
@@ -1124,6 +1124,30 @@ section {
 
 }
 
+/* Horizontal bar at the end of vertical line
+
+.git-timeline::after {
+
+    content: "";
+
+    position: absolute;
+
+    left: 28px;
+
+    bottom: 0;
+
+    width: 20px;
+
+    height: 2px;
+
+    background: var(--blue);
+
+    box-shadow:
+        0 0 12px var(--blue),
+        0 0 30px var(--blue);
+
+}
+ */
 
 /*================================
             COMMITS

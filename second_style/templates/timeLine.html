@@ -56,188 +56,33 @@
 
     <div class="git-timeline">
 
-
-        <!-- Commit 1 -->
-
+        {% for item in career %}
         <div class="commit">
 
-            <div class="node work"></div>
-
+            <div class="node {{ item.type }}"></div>
 
             <div class="commit-card glass">
 
                 <span class="commit-tag">
-
-                    WORK
-
+                    {{ item.tag }}
                 </span>
 
-
                 <h3>
-
-                    Software Developer
-
+                    {{ item.title }}
                 </h3>
 
-
                 <p>
-
-                    Building applications and solving
-                    real-world software problems.
-
+                    {{ item.description }}
                 </p>
 
-
                 <small>
-
-                    2023 - Present
-
+                    {{ item.date }}
                 </small>
-
 
             </div>
 
-
         </div>
-
-
-
-        <!-- Commit 2 -->
-
-        <div class="commit">
-
-            <div class="node study"></div>
-
-
-            <div class="commit-card glass">
-
-
-                <span class="commit-tag">
-
-                    STUDY
-
-                </span>
-
-
-                <h3>
-
-                    Computer Science Journey
-
-                </h3>
-
-
-                <p>
-
-                    Software engineering foundations,
-                    algorithms and continuous learning.
-
-                </p>
-
-
-                <small>
-
-                    Academic Stage
-
-                </small>
-
-
-            </div>
-
-
-        </div>
-
-
-
-        <!-- Commit 3 -->
-
-        <div class="commit">
-
-            <div class="node certification"></div>
-
-
-            <div class="commit-card glass">
-
-
-                <span class="commit-tag">
-
-                    CERTIFICATION
-
-                </span>
-
-
-                <h3>
-
-                    Cloud & Modern Technologies
-
-                </h3>
-
-
-                <p>
-
-                    Exploring cloud services,
-                    architecture and new tools.
-
-                </p>
-
-
-                <small>
-
-                    Continuous Growth
-
-                </small>
-
-
-            </div>
-
-
-        </div>
-
-
-
-        <!-- Commit 4 -->
-
-        <div class="commit">
-
-            <div class="node project"></div>
-
-
-            <div class="commit-card glass">
-
-
-                <span class="commit-tag">
-
-                    PROJECT
-
-                </span>
-
-
-                <h3>
-
-                    My Portfolio v3
-
-                </h3>
-
-
-                <p>
-
-                    Creating a futuristic glassmorphism
-                    portfolio using pure HTML and CSS.
-
-                </p>
-
-
-                <small>
-
-                    Current Project
-
-                </small>
-
-
-            </div>
-
-
-        </div>
-
+        {% endfor %}
 
     </div>
 
