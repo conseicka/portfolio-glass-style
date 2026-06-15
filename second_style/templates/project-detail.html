@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ project.title }} - My Portfolio</title>
+
+    <!-- Favicon using Font Awesome icon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><path fill='%2300c8ff' d='M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192 192-86 192-192z'/><path fill='%23060816' d='M216.4 332.5c12.5 12.5 32.8 12.5 45.3 0l96-96c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3zm160-96c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96z'/></svg>">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+
+<body>
+
+
+<!--================================
+        BACKGROUND LIGHTS
+=================================-->
+
+<div class="bg-purple"></div>
+<div class="bg-blue"></div>
+
+<!--================================
+            NAVBAR
+=================================-->
+
+{% block head %}
+    {% include "navBar.html" %}
+{% endblock %}
+
+<!--================================
+        PROJECT DETAIL SECTION
+=================================-->
+
+<section id="project-detail" class="contact">
+
+    <div class="section-title">
+
+        <span>
+            project-detail.sh
+        </span>
+
+        <h2>
+            {{ project.title }}
+        </h2>
+
+    </div>
+
+    <div class="git-terminal glass">
+
+
+
+        <div class="terminal-top">
+            <span class="circle red"></span>
+            <span class="circle yellow"></span>
+            <span class="circle green"></span>
+            <span class="terminal-title">
+                {{ project.id }}.sh
+            </span>
+        </div>
+
+        <div class="terminal-command">
+            $ cat {{ project.id }}.md
+        </div>
+
+        <div class="contact-info">
+            <p>
+                > Project:
+                {{ project.icon }} {{ project.title }}
+            </p>
+
+            <p>
+                > Description:
+                {{ project.description }}
+            </p>
+
+            <p>
+                > Stack:
+                {% for tech in project.stack %}
+                {{ tech }}{% if not loop.last %}, {% endif %}
+                {% endfor %}
+            </p>
+
+            <p style="margin-top: 30px;">
+                <a href="/#projects" class="secondary-btn" style="display: inline-block; text-decoration: none;">
+                    <i class="fa-solid fa-arrow-left"></i> Back to Projects
+                </a>
+            </p>
+
+
+            <p class="status-online">
+
+                ● showing project details...
+
+            </p>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--================================
+             FOOTER
+=================================-->
+
+{% block footer %}
+    {% include "footer.html" %}
+{% endblock %}
+
+
+</body>
+
+</html>
