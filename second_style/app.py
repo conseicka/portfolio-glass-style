@@ -1,6 +1,7 @@
 # basic flask app
 from flask import Flask, render_template
 from static.scripts.dataDict import projects as projects
+from static.scripts.dataDict import career as career
 
 
 app = Flask(__name__)
@@ -8,7 +9,7 @@ app = Flask(__name__)
 reload = True
 @app.route('/')
 def home():
-    return render_template('index.html', projects=projects)
+    return render_template('index.html', projects=projects, career=career)
 
 
 @app.errorhandler(404)

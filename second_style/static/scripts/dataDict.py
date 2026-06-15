@@ -24,10 +24,49 @@ projects = [
     },
 ]
 
-# Ejemplo de uso con Flask:
-# from flask import render_template
-# from projects_data import projects
-#
-# @app.route('/')
-# def home():
-#     return render_template('projects.html', projects=projects)
+# Career/Timeline data
+career = [
+
+    {
+        "type": "project",
+        "tag": "PROJECT",
+        "title": "OpenClaw",
+        "description": "Testing limits of what we can build with open source technology.",
+        "date": "Current Project",
+    },
+    {
+        "type": "work",
+        "tag": "WORK",
+        "title": "Software Developer",
+        "description": "Building applications and solving real-world software problems.",
+        "date": "2023 - Present",
+    },
+    {
+        "type": "study",
+        "tag": "STUDY",
+        "title": "Computer Science Journey",
+        "description": "Software engineering foundations, algorithms and continuous learning.",
+        "date": "Academic Stage",
+    },
+    {
+        "type": "certification",
+        "tag": "CERTIFICATION",
+        "title": "Cloud & Modern Technologies",
+        "description": "Exploring cloud services, architecture and new tools.",
+        "date": "Continuous Growth",
+    },
+    {
+        "type": "project",
+        "tag": "PROJECT",
+        "title": "My Portfolio v3",
+        "description": "Creating a futuristic glassmorphism portfolio using pure HTML and CSS.",
+        "date": "Current Project",
+    },
+    {
+        "type": "project",
+        "tag": "INITIAL COMMIT",
+        "title": "Hello World",
+        "description": "The beginning of my journey in software development.",
+        "date": "Career Start",
+    },
+]

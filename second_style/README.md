@@ -28,12 +28,14 @@ Instructions to install requirements and set environment variables for Flask.
 		 ```bash
 		 export FLASK_APP=app.py
 		 export FLASK_ENV=development
+		 export FLASK_DEBUG=1
 		 ```
 
 	 - Windows (PowerShell):
 		 ```powershell
 		 $env:FLASK_APP = "app.py"
 		 $env:FLASK_ENV = "development"
+		 $env:FLASK_DEBUG = "1"
 		 ```
 
 4. Run the app:
