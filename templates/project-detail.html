@@ -109,6 +109,7 @@
 
     </div>
 
+    {% if project.assets %}
     <div class="git-terminal glass" style="margin-top: 30px;">
 
         <div class="terminal-top">
@@ -127,10 +128,12 @@
         <div class="contact-info">
             {% for asset in project.assets %}
             <p>
-                > {{ asset.name }}
+                > {{ asset.name }}:
+<!--
                 <span style="color: var(--text-light); margin-left: 10px;">
                     [{{ asset.type }}]
                 </span>
+-->
                 <span style="color: var(--text-light); margin-left: 10px;">
                     {{ asset.description }}
                 </span>
@@ -141,7 +144,7 @@
             </div>
             {% elif asset.type == 'video' %}
             <div style="margin: 15px 0;">
-                <video controls style="max-width: 100%; border-radius: 10px; border: 1px solid var(--border);">
+                <video controls muted style="max-width: 100%; border-radius: 10px; border: 1px solid var(--border);">
                     <source src="{{ url_for('static', filename=asset.path) }}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -159,6 +162,7 @@
         </div>
 
     </div>
+    {% endif %}
 
 </section>
 
