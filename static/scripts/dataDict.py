@@ -1,5 +1,4 @@
 
-
 projects = [
     {
         "id": "portfolio-v3",
@@ -136,7 +135,6 @@ projects = [
 
 # Career/Timeline data
 career = [
-
     {
         "type": "project",
         "tag": "PROJECT",
@@ -145,32 +143,74 @@ career = [
         "date": "Current Project",
     },
     {
-        "type": "work",
-        "tag": "WORK",
-        "title": "Software Developer",
-        "description": "Building applications and solving real-world software problems.",
-        "date": "2023 - Present",
-    },
-    {
-        "type": "study",
-        "tag": "STUDY",
-        "title": "Computer Science Journey",
-        "description": "Software engineering foundations, algorithms and continuous learning.",
-        "date": "Academic Stage",
-    },
-    {
-        "type": "certification",
-        "tag": "CERTIFICATION",
-        "title": "Cloud & Modern Technologies",
-        "description": "Exploring cloud services, architecture and new tools.",
-        "date": "Continuous Growth",
-    },
-    {
         "type": "project",
         "tag": "PROJECT",
         "title": "My Portfolio v3",
         "description": "Creating a futuristic glassmorphism portfolio using pure HTML and CSS.",
-        "date": "Current Project",
+        "date": "2027/07",
+    },
+    {
+        "type": "work",
+        "tag": "JOB",
+        "title": "ENG Soluciones: Odoo Developer",
+        "description": "Building and maintaining Odoo solutions for business processes.",
+        "date": "2023/04 - Present",
+    },
+    {
+        "type": "study",
+        "tag": "COURSE",
+        "title": "Odoo Technical Training",
+        "description": "Technical training focused on Odoo development and customization.",
+        "date": "2023/04 - 2024/02",
+    },
+    {
+        "type": "work",
+        "tag": "JOB",
+        "title": "Yazaki: Validation Engineer",
+        "description": "Validation and testing activities for automotive systems.",
+        "date": "2022/01 - 2022/08",
+    },
+    {
+        "type": "study",
+        "tag": "COURSE",
+        "title": "Platzi: Programming Softwares",
+        "description": "Programming and software development training.",
+        "date": "2020/07 - 2022/08",
+    },
+    {
+        "type": "work",
+        "tag": "JOB",
+        "title": "Acuity Brands Lighting: Test Technician",
+        "description": "Testing and quality validation in lighting products.",
+        "date": "2020/12 - 2021/12",
+    },
+    {
+        "type": "work",
+        "tag": "JOB",
+        "title": "Daltile: Predictive Maintenance Engineer",
+        "description": "Applied predictive maintenance and reliability engineering.",
+        "date": "2018/07 - 2020/09",
+    },
+    {
+        "type": "study",
+        "tag": "EDUCATION",
+        "title": "University: Thesis",
+        "description": "Research and development work for the final thesis project.",
+        "date": "2017/03 - 2017/12",
+    },
+    {
+        "type": "study",
+        "tag": "COURSE",
+        "title": "LabVIEW CLAD Certification",
+        "description": "Certified LabVIEW development training.",
+        "date": "2015/06 - 2015/12",
+    },
+    {
+        "type": "study",
+        "tag": "EDUCATION",
+        "title": "University: Electrical and Automation Engineer",
+        "description": "Bachelor's degree in Electrical and Automation Engineering.",
+        "date": "2010/06 - 2016/01",
     },
     {
         "type": "project",
