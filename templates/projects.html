@@ -28,7 +28,7 @@
             <h3>{{ p.title }}</h3>
         </div>
 
-        <p>{{ p.description }}</p>
+        <p>{{ (p.brief if p.brief else p.description)|truncate(150) }}</p>
 
         <div class="project-stack">
             {%- for tech in p.stack %}

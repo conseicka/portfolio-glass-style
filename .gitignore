@@ -6,3 +6,4 @@
 *.mp4
 *.mov
 /static/project_details/*.png
+/static/project_details/**/*.png

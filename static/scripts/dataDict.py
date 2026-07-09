@@ -6,6 +6,7 @@ projects = [
         "icon": "📁",
         "title": "My Portfolio glass style",
         "description": "Futuristic developer portfolio with glassmorphism effects, neon lights, interactive visual components and pure HTML & CSS architecture whit AI enhancements.",
+        "brief": "Futuristic glassmorphism portfolio with interactive visual components.",
         "stack": ["HTML", "CSS", "Python", "UI Design"],
         "assets": [
             {
@@ -41,6 +42,7 @@ projects = [
         "description": "SQL request via Python ORM library, develop backend and frontend Odoo application for business needs "
         "( including developing custom applications ) such as: customer relationship management(CRM),billing, accounting, sales, "
         "purchases, warehouse, payment approvals, sales commissions, budget, etc.",
+        "brief": "Development of custom Odoo apps covering CRM, billing, inventory and automations.",
         "stack": ["Python", "XML", "Odoo"],
         "assets": [],
     },
@@ -49,6 +51,7 @@ projects = [
         "icon": "🧪",
         "title": "Vision",
         "description": "Developing a low cost vision system for detection of missing components on UUT through python.",
+        "brief": "Low-cost vision system for detecting missing components using Python and OpenCV.",
         "stack": ["Research", "Learning", "Python", "OpenCV"],
         "assets": [
             {
@@ -65,6 +68,7 @@ projects = [
         "title": "Thesis",
         "description": "Lead Acid Battery Backup Time Estimation Using LabVIEW for Traction Systems in Electric Vehicles'. This model was capable to estimate State of Charge, "
         "Backup Time and Autonomy of the vehicle. It also included the mathematical modeling of a vehicle.",
+        "brief": "Battery backup time estimation model for traction systems using LabVIEW.",
         "stack": ["Research", "Learning", "Labview", "Power Electronics"],
         "assets": [
             {
@@ -95,6 +99,7 @@ projects = [
         "description": "This project involved the development of a motor speed control system using LabVIEW as the programming environment and a MyRIO as the data acquisition platform. "
         "The control software was implemented in LabVIEW, while the MyRIO was used to read the signal from the sensor placed on the motor shaft and provide speed feedback. In addition, "
         "the necessary calculations for the power circuit design were carried out, and the corresponding PCB board was designed and implemented.",
+        "brief": "Motor speed control system using LabVIEW and MyRIO with PCB design and power calculations.",
         "stack": ["Power Electronics", "LabVIEW", "MyRIO", "Altium Designer", "PCB Design"],
         "assets": [
             {
@@ -113,6 +118,7 @@ projects = [
         "a DC-DC power converter for electric applications. The work covered component selection, circuit design, control strategy development, "
         "and validation of the power electronics system. LabVIEW was used as the control interface to monitor and manage the converter operation, "
         "integrating the electrical and control aspects of the project into a functional prototype.",
+        "brief": "Design and implementation of power converters (inverter, DC-DC) with control and validation.",
         "stack": ["Power Electronics", "LabVIEW", "Inverters", "DC-DC Converter", "Electric Vehicles"],
         "assets": [],
     },
@@ -122,6 +128,7 @@ projects = [
         "title": "Automation Scripts",
         "description": "This project focused on the development of shell scripts to automate repetitive processes, including Git repository conflict handling and software package installation. "
         "The goal was to simplify system maintenance tasks and reduce manual intervention through reliable command-line automation.",
+        "brief": "Shell scripts to automate maintenance tasks, Git conflict handling and installs.",
         "stack": ["Shell", "CMD", "Git", "Automation", "System Administration"],
         "assets": [],
     },
