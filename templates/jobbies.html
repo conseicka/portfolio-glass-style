@@ -1,0 +1,66 @@
+<!--================================
+            JOBBIES
+=================================-->
+
+<section id="jobbies" class="projects">
+
+    <div class="section-title">
+        <span>
+            jobbies.sh
+        </span>
+
+        <h2>
+            Jobbies
+        </h2>
+    </div>
+
+    <div class="projects-grid">
+
+    {% for job in jobbies %}
+    <a href="/job/{{ job.id }}" class="project-card glass" style="text-decoration: none; color: inherit;">
+        <div class="project-header">
+            <span class="project-icon">{{ job.icon }}</span>
+            <h3>{{ job.title }}</h3>
+          
+        </div>
+
+        {% if job.show %}
+        <div style="margin-top: 15px;">
+            {% if job.type == 'image' %}
+            <div>
+                <img src="{{ url_for('static', filename=job.show) }}" alt="{{ job.title }}" style="width: 100%; height: 300px; object-fit: contain; border-radius: 10px; border: 1px solid var(--border);">
+            </div>
+            {% elif job.type == 'video' %}
+            <div>
+                <video controls muted autoplay loop playsinline style="width: 100%; height: 300px; object-fit: cover; border-radius: 10px; border: 1px solid var(--border);">
+                    <source src="{{ url_for('static', filename=job.show) }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            {% endif %}
+        </div>
+        
+        {% elif job.assets %}
+        <div style="margin-top: 15px; display: flex; flex-direction: column; gap: 10px;">
+            {% for asset in job.assets %}
+            {% if asset.type == 'image' %}
+            <div style="margin-bottom: 0;">
+                <img src="{{ url_for('static', filename=asset.show) }}" alt="{{ asset.description }}" style="width: 100%; height: 220px; object-fit: cover; border-radius: 10px; border: 1px solid var(--border);">
+            </div>
+            {% elif asset.type == 'video' %}
+            <div style="margin-bottom: 0;">
+                <video controls muted autoplay loop playsinline style="width: 100%; height: 220px; object-fit: cover; border-radius: 10px; border: 1px solid var(--border);">
+                    <source src="{{ url_for('static', filename=asset.show) }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+        {% endif %}
+    </a>
+    {% endfor %}
+
+    </div>
+
+</section>

@@ -133,6 +133,8 @@ projects = [
     },
 ]
 
+
+
 # Career/Timeline data
 career = [
     {
@@ -219,4 +221,114 @@ career = [
         "description": "The beginning of my journey in software development.",
         "date": "Career Start",
     },
+]
+
+
+jobbies = [
+    {
+        "id": "drawing",
+        "icon": "🎨",
+        "title": "Drawing",
+        "show": "jobbies/drawing/a.jpg" ,#path to the image or video file
+        "type": "image", #video or imagen
+        "assets": [
+            {
+                "name": "Drawing 1",
+                "type": "image",
+                "path": "jobbies/drawing/a.jpg",
+                "description": "More than 20 years drawing."
+            },
+            {
+                "name": "Drawing 2",
+                "type": "image",
+                "path": "jobbies/drawing/m_1.jpg",
+                #"description": "Testing motor through LabVIEW."
+            },
+            {
+                "name": "Drawing 3",
+                "type": "image",
+                "path": "jobbies/drawing/m_2.jpg",
+                #"description": "Testing the power system using LabVIEW."
+            },
+            {
+                "name": "Drawing 4",
+                "type": "image",
+                "path": "jobbies/drawing/v.jpg",
+                #"description": "Testing the power system using LabVIEW."
+            },
+            {
+                "name": "Drawing 5",
+                "type": "image",
+                "path": "jobbies/drawing/i.jpg",
+                #"description": "Testing the power system using LabVIEW."
+            },
+                        
+        ],
+    },
+
+    {
+        "id": "music",
+        "icon": "🎹",
+        "title": "Music",
+        "show": "jobbies/music/amelie.mp4",
+        "type": "video", #video or imagen
+        "assets": [
+            {
+                "name": "Amelie",
+                "type": "video",
+                "path": "jobbies/music/amelie.mp4",
+                #"description": ""
+            },
+            {
+                "name": "You and I",
+                "type": "video",
+                "path": "jobbies/music/you_and_i.mp4",
+                #"description": ""
+            },
+        ],
+    },
+
+    {
+        "id": "athletism",
+        "icon": "🏃🏻‍♂️",
+        "title": "Athletism",
+        "show": "jobbies/athletism/2th.jpg",#path to the image or video file
+        "type": "image", #video or imagen
+        "assets": [
+            {
+                "name": "5k Second place",
+                "type": "image",
+                "path": "jobbies/athletism/2th.jpg",
+                "description": "16:50min"
+            },
+            {
+                "name": "3.3k First place",
+                "type": "image",
+                "path": "jobbies/athletism/3k_math.jpg",
+                "description": "10:30min"
+            },
+            {
+                "name": "5K third place",
+                "type": "image",
+                "path": "jobbies/athletism/ben.jpg",
+                "description": "17:50min"
+            },
+            {
+                "name": "Internal university competition",
+                "type": "image",
+                "path": "jobbies/athletism/uni.jpg",
+                #"description": "16:50min"
+            },
+            {
+                "name": "internal university competition",
+                "type": "image",
+                "path": "jobbies/athletism/uni_2.jpg",
+                #"description": "16:50min"
+            },
+            
+        ],
+    },
+
+
+
 ]

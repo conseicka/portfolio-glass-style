@@ -7,3 +7,5 @@
 *.mov
 /static/project_details/*.png
 /static/project_details/**/*.png
+/static/jobbies/*.jpg
+/static/jobbies/**/*.jpg
