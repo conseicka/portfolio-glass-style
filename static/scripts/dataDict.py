@@ -3,7 +3,7 @@ projects = [
     {
         "id": "portfolio-v3",
         "icon": "📁",
-        "title": "My Portfolio glass style",
+        "title": "My Portfolio",
         "description": "Futuristic developer portfolio with glassmorphism effects, neon lights, interactive visual components and pure HTML & CSS architecture whit AI enhancements.",
         "brief": "Futuristic glassmorphism portfolio with interactive visual components.",
         "stack": ["HTML", "CSS", "Python", "UI Design"],

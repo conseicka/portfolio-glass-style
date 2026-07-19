@@ -214,6 +214,10 @@ body {
 
 .menu a {
 
+    position: relative;
+
+    padding-bottom: 6px;
+
     text-decoration: none;
 
     color: var(--text-light);
@@ -225,12 +229,46 @@ body {
 }
 
 
+.menu a::after {
+
+    content: "";
+
+    position: absolute;
+
+    right: 0;
+
+    bottom: 0;
+
+    left: 0;
+
+    height: 2px;
+
+    background: var(--blue);
+
+    box-shadow: 0 0 8px var(--blue);
+
+    transform: scaleX(0);
+
+    transform-origin: left;
+
+    transition: transform .25s ease;
+
+}
+
+
 .menu a:hover {
 
     color: var(--blue);
 
     text-shadow:
         0 0 15px var(--blue);
+
+}
+
+
+.menu a:hover::after {
+
+    transform: scaleX(1);
 
 }
 
@@ -920,7 +958,47 @@ section {
 
 .project-header h3 {
 
+    position: relative;
+
+    padding-bottom: 6px;
+
     font-size: 1.2rem;
+
+    transition: color .25s ease, text-shadow .25s ease;
+
+}
+
+
+.project-header h3::after {
+
+    content: "";
+
+    position: absolute;
+
+    right: 0;
+
+    bottom: 0;
+
+    left: 0;
+
+    height: 2px;
+
+    background: var(--blue);
+
+    box-shadow: 0 0 8px var(--blue);
+
+    transform: scaleX(0);
+
+    transform-origin: left;
+
+    transition: transform .25s ease;
+
+}
+
+
+.project-card:hover .project-header h3::after {
+
+    transform: scaleX(1);
 
 }
 
@@ -1665,4 +1743,3 @@ footer {
 
     margin-top: 15px;
 }
-
