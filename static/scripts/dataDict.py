@@ -29,7 +29,7 @@ projects = [
             {
                 "name": "Responsive demo",
                 "type": "video",
-                "path": "videos/glass-effect-demo.mp4",
+                "path": "project_details/portfolio/responsive.mp4",
                 "description": "Glassmorphism effects  and responsive demonstration"
             },
         ],
@@ -140,8 +140,8 @@ career = [
     {
         "type": "project",
         "tag": "PROJECT",
-        "title": "OpenClaw",
-        "description": "Testing limits of what we can build with open source technology.",
+        "title": "Claude",
+        "description": "Testing limits of what we can build with AI technologies.",
         "date": "Current Project",
     },
     {
@@ -229,11 +229,11 @@ jobbies = [
         "id": "drawing",
         "icon": "🎨",
         "title": "Drawing",
-        "show": "jobbies/drawing/a.jpg" ,#path to the image or video file
+        "show": "jobbies/drawing/m_1.jpg" ,#path to the image or video file
         "type": "image", #video or imagen
         "assets": [
             {
-                "name": "Drawing 1",
+                "name": "Drawing 1:",
                 "type": "image",
                 "path": "jobbies/drawing/a.jpg",
                 "description": "More than 20 years drawing."
@@ -285,6 +285,18 @@ jobbies = [
                 "path": "jobbies/music/you_and_i.mp4",
                 #"description": ""
             },
+            {
+                "name": "Nothing else matters",
+                "type": "video",
+                "path": "jobbies/music/music_1.mp4",
+                #"description": ""
+            },
+            {
+                "name": "Medley",
+                "type": "video",
+                "path": "jobbies/music/music_2.mp4",
+                #"description": ""
+            },
         ],
     },
 
@@ -296,19 +308,19 @@ jobbies = [
         "type": "image", #video or imagen
         "assets": [
             {
-                "name": "5k Second place",
+                "name": "5k Second place:",
                 "type": "image",
                 "path": "jobbies/athletism/2th.jpg",
                 "description": "16:50min"
             },
             {
-                "name": "3.3k First place",
+                "name": "3.3k First place:",
                 "type": "image",
                 "path": "jobbies/athletism/3k_math.jpg",
                 "description": "10:30min"
             },
             {
-                "name": "5K third place",
+                "name": "5K third place:",
                 "type": "image",
                 "path": "jobbies/athletism/ben.jpg",
                 "description": "17:50min"
