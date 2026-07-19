@@ -1,0 +1,3 @@
+[submodule "static/portfolio_assets"]
+	path = static/portfolio_assets
+	url = git@github.com:conseicka/portfolio_assets.git
