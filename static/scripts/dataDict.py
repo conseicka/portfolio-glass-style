@@ -11,25 +11,25 @@ projects = [
             {
                 "name": "Layout",
                 "type": "image",
-                "path": "project_details/portfolio/layout.png",
+                "path": "portfolio_assets/project_details/portfolio/layout.png",
                 "description": "Portfolio Layout"
             },
             {
                 "name": "Git history architecture",
                 "type": "image",
-                "path": "project_details/portfolio/time-line.png",
+                "path": "portfolio_assets/project_details/portfolio/time-line.png",
                 "description": "Git history architecture designed whit AI"
             },
             {
                 "name": "Git history fixing alignment",
                 "type": "image",
-                "path": "project_details/portfolio/time_line_architecture.png",
+                "path": "portfolio_assets/project_details/portfolio/time_line_architecture.png",
                 "description": "Fixing alignment of the Git history architecture designed whit AI"
             },
             {
                 "name": "Responsive demo",
                 "type": "video",
-                "path": "project_details/portfolio/responsive.mp4",
+                "path": "portfolio_assets/project_details/portfolio/responsive.mp4",
                 "description": "Glassmorphism effects  and responsive demonstration"
             },
         ],
@@ -56,7 +56,7 @@ projects = [
             {
                 "name": "vision.mp4",
                 "type": "video",
-                "path": "project_details/vision/vision.mp4",
+                "path": "portfolio_assets/project_details/vision/vision.mp4",
                 "description": "Interactive prototype showcase"
             },
         ],
@@ -73,19 +73,19 @@ projects = [
             {
                 "name": "Test Aceleration",
                 "type": "video",
-                "path": "project_details/thesis/test_aceleration.mp4",
+                "path": "portfolio_assets/project_details/thesis/test_aceleration.mp4",
                 "description": "Testing the vehicle acceleration using LabVIEW for control traction systems in electric vehicles."
             },
             {
                 "name": "Test Motor System",
                 "type": "video",
-                "path": "project_details/thesis/test_motor_system_compressed.mp4",
+                "path": "portfolio_assets/project_details/thesis/test_motor_system_compressed.mp4",
                 "description": "Testing motor through LabVIEW."
             },
             {
                 "name": "Testing Power System",
                 "type": "video",
-                "path": "project_details/thesis/test_power_system_compressed.mp4",
+                "path": "portfolio_assets/project_details/thesis/test_power_system_compressed.mp4",
                 "description": "Testing the power system using LabVIEW."
             },
                         
@@ -104,7 +104,7 @@ projects = [
             {
                 "name": "Motor Control",
                 "type": "video",
-                "path": "project_details/motor_control/vel_control_compressed.mp4",
+                "path": "portfolio_assets/project_details/motor_control/vel_control_compressed.mp4",
                 "description": "Testing the motor speed control system using LabVIEW and MyRIO for data acquisition and velocity control."
             },
         ],
@@ -229,37 +229,37 @@ jobbies = [
         "id": "drawing",
         "icon": "🎨",
         "title": "Drawing",
-        "show": "jobbies/drawing/m_1.jpg" ,#path to the image or video file
+        "show": "portfolio_assets/jobbies/drawing/m_1.jpg" ,#path to the image or video file
         "type": "image", #video or imagen
         "assets": [
             {
                 "name": "Drawing 1:",
                 "type": "image",
-                "path": "jobbies/drawing/a.jpg",
+                "path": "portfolio_assets/jobbies/drawing/a.jpg",
                 "description": "More than 20 years drawing."
             },
             {
                 "name": "Drawing 2",
                 "type": "image",
-                "path": "jobbies/drawing/m_1.jpg",
+                "path": "portfolio_assets/jobbies/drawing/m_1.jpg",
                 #"description": "Testing motor through LabVIEW."
             },
             {
                 "name": "Drawing 3",
                 "type": "image",
-                "path": "jobbies/drawing/m_2.jpg",
+                "path": "portfolio_assets/jobbies/drawing/m_2.jpg",
                 #"description": "Testing the power system using LabVIEW."
             },
             {
                 "name": "Drawing 4",
                 "type": "image",
-                "path": "jobbies/drawing/v.jpg",
+                "path": "portfolio_assets/jobbies/drawing/v.jpg",
                 #"description": "Testing the power system using LabVIEW."
             },
             {
                 "name": "Drawing 5",
                 "type": "image",
-                "path": "jobbies/drawing/i.jpg",
+                "path": "portfolio_assets/jobbies/drawing/i.jpg",
                 #"description": "Testing the power system using LabVIEW."
             },
                         
@@ -270,31 +270,31 @@ jobbies = [
         "id": "music",
         "icon": "🎹",
         "title": "Music",
-        "show": "jobbies/music/amelie.mp4",
+        "show": "portfolio_assets/jobbies/music/amelie.mp4",
         "type": "video", #video or imagen
         "assets": [
             {
                 "name": "Amelie",
                 "type": "video",
-                "path": "jobbies/music/amelie.mp4",
+                "path": "portfolio_assets/jobbies/music/amelie.mp4",
                 #"description": ""
             },
             {
                 "name": "You and I",
                 "type": "video",
-                "path": "jobbies/music/you_and_i.mp4",
+                "path": "portfolio_assets/jobbies/music/you_and_i.mp4",
                 #"description": ""
             },
             {
                 "name": "Nothing else matters",
                 "type": "video",
-                "path": "jobbies/music/music_1.mp4",
+                "path": "portfolio_assets/jobbies/music/music_1.mp4",
                 #"description": ""
             },
             {
                 "name": "Medley",
                 "type": "video",
-                "path": "jobbies/music/music_2.mp4",
+                "path": "portfolio_assets/jobbies/music/music_2.mp4",
                 #"description": ""
             },
         ],
@@ -304,37 +304,37 @@ jobbies = [
         "id": "athletism",
         "icon": "🏃🏻‍♂️",
         "title": "Athletism",
-        "show": "jobbies/athletism/2th.jpg",#path to the image or video file
+        "show": "portfolio_assets/jobbies/athletism/2th.jpg",#path to the image or video file
         "type": "image", #video or imagen
         "assets": [
             {
                 "name": "5k Second place:",
                 "type": "image",
-                "path": "jobbies/athletism/2th.jpg",
+                "path": "portfolio_assets/jobbies/athletism/2th.jpg",
                 "description": "16:50min"
             },
             {
                 "name": "3.3k First place:",
                 "type": "image",
-                "path": "jobbies/athletism/3k_math.jpg",
+                "path": "portfolio_assets/jobbies/athletism/3k_math.jpg",
                 "description": "10:30min"
             },
             {
                 "name": "5K third place:",
                 "type": "image",
-                "path": "jobbies/athletism/ben.jpg",
+                "path": "portfolio_assets/jobbies/athletism/ben.jpg",
                 "description": "17:50min"
             },
             {
                 "name": "Internal university competition",
                 "type": "image",
-                "path": "jobbies/athletism/uni.jpg",
+                "path": "portfolio_assets/jobbies/athletism/uni.jpg",
                 #"description": "16:50min"
             },
             {
                 "name": "internal university competition",
                 "type": "image",
-                "path": "jobbies/athletism/uni_2.jpg",
+                "path": "portfolio_assets/jobbies/athletism/uni_2.jpg",
                 #"description": "16:50min"
             },
             
