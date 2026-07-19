@@ -1,0 +1,10 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ericbhtn/apps/web-app-erick
+    - /bin/mkdir -p $DEPLOYPATH
+    - git submodule sync --recursive
+    - git submodule update --init --recursive
+    - /bin/cp -R static $DEPLOYPATH
+    - /bin/cp -R templates $DEPLOYPATH
+    - /bin/cp app.py $DEPLOYPATH
