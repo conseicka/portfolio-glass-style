@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/ericbhtn/apps/web-app-erick
+    - export DEPLOYPATH=/home/ericbhtn/apps/portfolio
     - /bin/mkdir -p $DEPLOYPATH
     - git submodule sync --recursive
     - git submodule update --init --recursive
